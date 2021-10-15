@@ -1,6 +1,5 @@
 package com.TSITraining.Library;
 
-
 public class Main {
 
     private static LibraryItems book;
@@ -9,7 +8,7 @@ public class Main {
 
         Book book = new Book("Harry Potter", "Thirty", "J K Rowling", "Hard Back", "Fiction");
         book.getTitle();
-        Book book1 = new Book("Poe", "Paperback","Fiction");
+        Book book1 = new Book("Poe", "Paperback", "Fiction");
         book1.getAuthor();
         Book book2 = new Book("Stephen Hawking", "Hard back");
         book2.getTitle();
