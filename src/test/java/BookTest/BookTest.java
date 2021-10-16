@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
 public class BookTest {
 
         @Test
-        void testAuthorMethod() {
+        public void testAuthorMethod() {
             Book testBook = new Book("Poe", "fantasy", "Fiction");
             assertEquals("The book has an author", "Poe", testBook.getAuthor());
 
