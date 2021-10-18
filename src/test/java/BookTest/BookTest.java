@@ -5,6 +5,7 @@ import com.TSITraining.Library.Book;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 public class BookTest {
 
@@ -27,7 +28,7 @@ public class BookTest {
         @Test
         public void testTitleMethod() {
             Book testTitle = new Book("Harry Potter", "Thirty", "J K Rowling", "Hardback", "Fiction");
-            assertEquals("The book you are looking for is ", "Harry Potter", testTitle.getTitle());
+            assertNotEquals("The book you are looking for is ", "Harry Potter", testTitle.getTitle());
         }
 
 
