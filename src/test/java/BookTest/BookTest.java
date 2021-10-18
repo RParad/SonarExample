@@ -33,7 +33,7 @@ public class BookTest {
         @Test
         public void testCoverTypeMethod() {
             Book testCoverType = new Book("Stephen Hawking", "Paper Back");
-            assertEquals("The cover is: ", "Paperback", testCoverType.getCoverType());
+            assertEquals("The cover is: ", "Paper Back", testCoverType.getCoverType());
         }
 
 
