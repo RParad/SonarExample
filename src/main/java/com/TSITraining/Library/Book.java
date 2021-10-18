@@ -6,7 +6,7 @@ public class Book extends com.TSITraining.Library.Literature implements Borrow{
     private String author;
     private String coverType;
     private String writingStyle;
-    private String title;
+    public String title;
 
 
     ///////////////////////////Constructor\\\\\\\\\\\\\\\\\
