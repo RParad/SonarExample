@@ -2,7 +2,7 @@ package com.TSITraining.Library;
 
 import static java.lang.System.*;
 
-public class Book extends com.TSITraining.Library.Literature implements Borrow{
+public class Book extends com.TSITraining.Library.Literature implements Borrow {
     /////////////////////////Attributes\\\\\\\\\\\\\\\\\\\\
     private String chapters;
     private String author;
@@ -13,8 +13,8 @@ public class Book extends com.TSITraining.Library.Literature implements Borrow{
 
     ///////////////////////////Constructor\\\\\\\\\\\\\\\\\
 
-    public Book(String title,String chapters, String author, String coverType, String writingStyle) {
-        this.title= title;
+    public Book(String title, String chapters, String author, String coverType, String writingStyle) {
+        this.title = title;
         this.chapters = chapters;
         this.author = author;
         this.coverType = coverType;
@@ -27,16 +27,14 @@ public class Book extends com.TSITraining.Library.Literature implements Borrow{
         this.coverType = coverType;
         this.writingStyle = writingStyle;
     }
+
     public Book(String author, String coverType) {
         this.author = author;
         this.coverType = coverType;
     }
 
 
-
-
     /////////////////////////Method\\\\\\\\\\\\\\\\\\\\\\\\
-
 
 
     public void education(String knowledge) {
@@ -78,26 +76,20 @@ public class Book extends com.TSITraining.Library.Literature implements Borrow{
     public void setWritingStyle(String writingStyle) {
         this.writingStyle = writingStyle;
     }
-    /*
-    //Attributes can not be implemented into this section but code needs to be called
-     */
+
     @Override
     public void loanDuration() {
-
+        // Attributes can not be implemented into this section but code needs to be called
     }
-    /*
-    //Attributes can not be implemented into this section but code needs to be called
-     */
+
     @Override
     public void qualityCheck() {
-
+        //Attributes can not be implemented into this section but code needs to be called
     }
-    /*
-    //Attributes can not be implemented into this section but code needs to be called
-     */
+
     @Override
     public void returns() {
-
+        // Attributes can not be implemented into this section but code needs to be called
     }
 }
 
