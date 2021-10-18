@@ -35,6 +35,11 @@ public class BookTest {
             Book testCoverType = new Book("Stephen Hawking", "Paper Back");
             assertEquals("The cover is: ", "Paper Back", testCoverType.getCoverType());
         }
+        @Test
+        public void testChapters() {
+            Book testChapter = new Book("Harry Potter", "Thirty", "J K Rowling", "Hard Back", "Fiction");
+            assertEquals("There are :", "Thirty",  testChapter.getChapters());
+        }
 
 
 }

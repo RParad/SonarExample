@@ -1,5 +1,7 @@
 package com.TSITraining.Library;
 
+import static java.lang.System.*;
+
 public class Book extends com.TSITraining.Library.Literature implements Borrow{
     /////////////////////////Attributes\\\\\\\\\\\\\\\\\\\\
     private String chapters;
@@ -38,11 +40,11 @@ public class Book extends com.TSITraining.Library.Literature implements Borrow{
 
 
     public void education(String knowledge) {
-        System.out.println("Reading increases reading age!");
+        out.println("Reading increases reading age!");
     }
 
     public void borrowTime(int days) {
-        System.out.println("Book can be borrowed for" + days + "days");
+        out.println("Book can be borrowed for" + days + "days");
     }
 
     public String getChapters() {
@@ -76,17 +78,23 @@ public class Book extends com.TSITraining.Library.Literature implements Borrow{
     public void setWritingStyle(String writingStyle) {
         this.writingStyle = writingStyle;
     }
-
+    /*
+    //Attributes can not be implemented into this section but code needs to be called
+     */
     @Override
     public void loanDuration() {
 
     }
-
+    /*
+    //Attributes can not be implemented into this section but code needs to be called
+     */
     @Override
     public void qualityCheck() {
 
     }
-
+    /*
+    //Attributes can not be implemented into this section but code needs to be called
+     */
     @Override
     public void returns() {
 
