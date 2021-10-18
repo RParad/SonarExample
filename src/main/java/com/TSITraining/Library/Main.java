@@ -2,7 +2,6 @@ package com.TSITraining.Library;
 
 public class Main {
 
-    private static LibraryItems book;
 
     public static void main(String[] args) {
 

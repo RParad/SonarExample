@@ -30,6 +30,7 @@ public abstract class LibraryItems {
     public void storage(String format) {
         System.out.println("I store information as data");
     }
+
     public abstract void borrowTime(int days);
 
     public abstract void education (String knowledge);
@@ -40,13 +41,10 @@ public abstract class LibraryItems {
 
     //Getters
     public String getTitle() {
-        String title = this.title;
         return title;
-
     }
 
     public int getDate() {
-        int date = this.date;
         return date;
     }
 
