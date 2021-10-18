@@ -27,7 +27,9 @@ public abstract class Multimedia extends LibraryItems{
 
     /////////////////////////Method\\\\\\\\\\\\\\\\\\\\\\\\
 
-
+    public void engagement() {
+        System.out.println("Multimedia engagement is required");
+    }
 
 
 

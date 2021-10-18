@@ -15,6 +15,9 @@ public class Main {
         System.out.println(book1);
         System.out.println(book2);
 
+        DVD dvd = new DVD ("Avatar", "James Cameron", 2009);
+        dvd.getDirector();
     }
+
 }
 
